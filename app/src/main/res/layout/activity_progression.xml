@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#d7d3d3">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="15dp"
+        android:text="  Geometric Progression"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prog1" />
+    <TextView
+        android:layout_marginTop="40dp"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/formula_1"
+        />
+    <TextView
+        android:layout_marginTop="80dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prog2"
+        />
+    <TextView
+        android:layout_marginTop="110dp"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/formula_2"
+        />
+    <TextView
+        android:layout_marginTop="150dp"
+        android:text="  Sum of the first n terms"
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prog3"
+        />
+    <TextView
+        android:layout_marginTop="180dp"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/formula_3"
+        />
+    <TextView
+        android:layout_marginTop="220dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="15dp"
+        android:text="  Arithmetic Progression"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prog4" />
+    <TextView
+        android:layout_marginTop="250dp"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/formula_4"
+        />
+    <TextView
+        android:layout_marginTop="290dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prog5"
+        />
+    <TextView
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/formula_5"
+        android:layout_alignTop="@+id/try_5a"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_marginTop="360dp"
+        android:text="  Sum of the first n terms"
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prog6"
+        />
+    <TextView
+        android:layout_marginTop="390dp"
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/formula_6"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:onClick="onClick"
+        android:background="#C0C0C0"
+        android:text="Try It Out"
+        android:textStyle="bold"
+        android:id="@+id/try_1a"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_alignTop="@+id/formula_1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:onClick="onClick"
+        android:textStyle="bold"
+        android:background="#C0C0C0"
+        android:text="Try It Out"
+        android:id="@+id/try_2a"
+        android:layout_alignTop="@+id/formula_2"
+        android:layout_alignRight="@+id/try_1a"
+        android:layout_alignEnd="@+id/try_1a" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try It Out"
+        android:id="@+id/try_3a"
+        android:textColor="#ff0000"
+        android:onClick="onClick"
+        android:textStyle="bold"
+        android:background="#C0C0C0"
+        android:layout_alignTop="@+id/formula_3"
+        android:layout_alignRight="@+id/try_2a"
+        android:layout_alignEnd="@+id/try_2a" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try It Out"
+        android:id="@+id/try_4a"
+        android:textColor="#ff0000"
+        android:onClick="onClick"
+        android:background="#C0C0C0"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/formula_4"
+        android:layout_alignRight="@+id/try_3a"
+        android:layout_alignEnd="@+id/try_3a" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try It Out"
+        android:textColor="#ff0000"
+        android:onClick="onClick"
+        android:textStyle="bold"
+        android:background="#C0C0C0"
+        android:id="@+id/try_5a"
+        android:layout_below="@+id/prog5"
+        android:layout_alignRight="@+id/try_4a"
+        android:layout_alignEnd="@+id/try_4a" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try It Out"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:onClick="onClick"
+        android:background="#C0C0C0"
+        android:id="@+id/try_6a"
+        android:layout_alignTop="@+id/formula_6"
+        android:layout_alignRight="@+id/try_5a"
+        android:layout_alignEnd="@+id/try_5a" />
+</RelativeLayout>

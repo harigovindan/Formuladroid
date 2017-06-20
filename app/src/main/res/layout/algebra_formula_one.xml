@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter a"
+        android:id="@+id/enter_a"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter b"
+        android:id="@+id/enter_b"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/enter_a"
+        android:layout_alignLeft="@+id/enter_a"
+        android:layout_alignStart="@+id/enter_a" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/a_value"
+        android:layout_marginLeft="65dp"
+        android:layout_marginStart="65dp"
+        android:layout_above="@+id/r_value"
+        android:layout_toRightOf="@+id/enter_a"
+        android:layout_toEndOf="@+id/enter_a" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:id="@+id/result"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/enter_b"
+        android:layout_alignLeft="@+id/enter_b"
+        android:layout_alignStart="@+id/enter_b" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/result_value"
+        android:visibility="invisible"
+        android:inputType="none"
+        android:editable="false"
+        android:layout_alignBottom="@+id/result"
+        android:layout_alignLeft="@+id/a_value"
+        android:layout_alignStart="@+id/a_value" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/r_value"
+        android:layout_above="@+id/result"
+        android:layout_alignLeft="@+id/result_value"
+        android:layout_alignStart="@+id/result_value"
+        android:clickable="false" />
+
+</RelativeLayout>
